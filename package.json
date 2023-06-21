@@ -1,0 +1,26 @@
+{
+  "name": "proxy-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy1": "tsx proxy1.ts",
+    "proxyfetch": "tsx proxy-fetch.ts",
+    "proxyaxios": "tsx proxy-axios.ts",
+    "p1": "npx ts-node proxy1.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "https-proxy-agent": "^7.0.0",
+    "node-fetch": "^3.3.1",
+    "socks-proxy-agent": "^8.0.1",
+    "tsx": "^3.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
